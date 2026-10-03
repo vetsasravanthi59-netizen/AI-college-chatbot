@@ -1,0 +1,20 @@
+{
+  "name": "ai-college-chatbot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI College Chatbot – Smart Student Assistance System (MERN Stack)",
+  "scripts": {
+    "client": "npm --prefix client run dev",
+    "server": "node server/server.js",
+    "server:dev": "nodemon server/server.js",
+    "build": "npm --prefix client run build"
+  },
+  "keywords": [
+    "ai-college-chatbot",
+    "mern",
+    "student-assistant",
+    "faq-knowledge-base"
+  ],
+  "author": "Full-Stack AI Developer",
+  "license": "ISC"
+}
